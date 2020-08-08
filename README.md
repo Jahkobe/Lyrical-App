@@ -18,6 +18,8 @@ Html
 CSS
 SASS
 Html.erb
+Bootstrap
+Heroku
 Pagination
 Gravatar
 
