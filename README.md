@@ -24,6 +24,6 @@ Pagination
 Gravatar
 
 Future Ideas
-In the future I would like to add categories so that you can categorize different genres of songs and be able to add your own songs to a certain genre. I’d also like to make a public and private feature where you can either put your lyrics out there for the public to see it or just keep it private to yourself for the time being. Id also like to add a feature where you can upload your music associated with the lyrics or even upload music/covers to other people's music. 
+In the future I would like to add categories so that you can categorize different genres of songs and be able to add your own songs to a certain genre. I’d also like to make a public and private feature where you can either put your lyrics out there for the public to see it or just keep it private to yourself for the time being. Id also like to add a feature where you can upload your music associated with the lyrics or even upload music/covers to other people's music. Also adding likes page as well as a views page.
 
 
