@@ -21,7 +21,7 @@ class ArticlesController < ApplicationController
         @article = Article.new(article_params)
         @article.user = current_user
         if @article.save
-            flash[:notice] = "Article was created successfully."
+            flash[:notice] = "Lyrics was created successfully."
             redirect_to article_path(@article)
         else
             render 'new'
@@ -31,7 +31,7 @@ class ArticlesController < ApplicationController
 
     def update
         if @article.update(article_params)
-            flash[:notice] = "Article was successfully updated."
+            flash[:notice] = "Lyrics were successfully updated."
             redirect_to @article
         else
             render 'edit'
@@ -55,7 +55,7 @@ class ArticlesController < ApplicationController
 
     def require_same_user
         if current_user != @article.user && !current_user.admin?
-            flash[:alert] = "Your can only edit or delete your own article"
+            flash[:alert] = "Your can only edit or delete your own lyrics"
             redirect_to @article
         end
     end
